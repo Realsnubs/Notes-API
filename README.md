@@ -24,5 +24,18 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 
+## API Endpoints
+
+GET /api/notes/ – list notes  
+POST /api/notes/ – create note  
+PUT /api/notes/{id}/ – update note  
+DELETE /api/notes/{id}/ – delete note
+
+## API example (screenshots)
+
+![API Screenshot](api_screen1.png)
+
+
+
 ## Author
 - Realsnubs
